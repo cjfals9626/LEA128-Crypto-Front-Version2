@@ -1,69 +1,57 @@
-# Electron React Template
+# 암호 모듈
+&nbsp;
 
-_Easy-to-understand-and-use boilerplate code for creating an Electron desktop app simply using Reactjs. Includes React Router._
-<br>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [Electron](https://electronjs.org/), and [electron-builder](https://github.com/electron-userland/electron-builder).
+### 1. 기간
 
-## Build Electron App With React - Video Tutorial
+2022. 09 ~ 2022. 11
+&nbsp;
 
-[Video Tutorial at YouTube](https://www.youtube.com/playlist?list=PLASldBPN_pkCXhDdahLI2RIRy1tmGTeit)
+### 2. 개발 개요
 
-## Usage
+- 보안을 적용할 경우 기존 시스템의 속도 저하 문제 발생.
+- 서버 등 중요 자산에 대해 허락되지 않는 사용자의 접근이 빈번하게 발생
+- 보안 대책이 없거나 부족한 경우 심각한 손실을 동반하는 보안 사고가 일어날 확률 증가
 
-1. Clone this repository.
+---
 
-```
-git clone https://github.com/TarunKumar29/electron-react.git <your-project-name>
-```
+- 기존 시스템의 속도 저하를 최소화하면서 파일, DBMS 암/복호화 기능을 통합한 암/복호화 통합 모듈.
+- IOT 등 스마트 기기 등 IT 산업발전과 비례하여 보안 문제 증가
+- 보안을 적용할 경우 기존 시스템의 속도 저하 문제 발생.
+- 서버 등 중요 자산에 대해 허락되지 않는 사용자의 접근이 빈번하게 발생
+- 보안 대책이 없거나 부족한 경우 심각한 손실을 동반하는 보안 사고가 일어날 확률 증가
 
-2. If you havent already, install Yarn globally.
+---
 
-```
-npm install -g yarn
-```
+- 기존 시스템의 속도 저하를 최소화하면서 파일, DBMS 암/복호화 기능을 통합한 암/복호화 통합 모듈.
+&nbsp;
 
-3. Navigate into project root and install dependencies.
+### 3. 개발 인원
 
-```
-cd <your-project-name> && npm install
-```
+4명(팀원)
+&nbsp;
 
-4. Run dev server.
+### 4. 담당 파트
 
-```
-npm run start
-```
+여러 데이터 베이스 연동 및 데이터 추출 서비스 (기여도 100%)
+&nbsp;
 
-## Deploy to Desktop
+### 5. 대표 이미지
+![e1](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/44dd5ed3-d1ff-4450-9303-3cfb0983720a)
+![e2](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/f2456c13-69f3-4401-b9ac-a5d5661cfb36)
+![e3](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/99ac616e-06c8-41d3-a394-7adff519eebb)
+![e4](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/a84a3d6a-c8b8-4e01-b590-9346ae391b77)
+&nbsp;
 
-1. Run the build process
+### 6. 개발 환경
 
-```
-npm run build
-```
+1. Front : JavaScript [React], CSS [Material UI], Electron
+2. Back : Java(JDK 17) [Spring boot]
+3. DB : Oracle, MsSQL, MySQL, MariaDB
+4. 형상 관리 : Github, Notion
+5. IDE : Intellij IDEA 2021, Visual Studio Code
+&nbsp;
 
-2. Go into your project folder using your file explorer. Navigate to the `dist` folder and open it. Then double-click `<your-project-name>` Setup 0.1.0. Your app should open and there should now be an icon on your desktop for this app.
+### 7. 시스템 운용도
 
-**Use a Custom Icon**
+![e5](https://github.com/cjfals9626/ITEM_FRONT/assets/81482706/1ce0948f-0b9c-4c3e-b2c8-735f1a4e34f2)
 
-Add a 256 x 256 .png or .ico image in your public folder. It should be either `icon.ico` or `icon.png`. Update the `icon` property in your `package.json` if necessary. Currently, it uses an image called `icon.png`, which is a graphic of a coffee cup. You'll only see this in production. For more info, see the [electron-builder documentation](https://www.electron.build/icons)
-
-## Errors to ingnore while using the template -
-
-1. Errors showing the modules are deprecated. You can safely use the template even after those warnings or errors (though it is advisable to update it).
-
-Example -
-
-```
-...
-npm WARN deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
-npm WARN deprecated...
-```
-
-(**Note: However these types of messages are not expected as all the modules are updated frequently. :)** )
-
-2. Errors related to fsevents can be ignored if it is use in computer which is **not** a _mac_. (If any error related to _fsevents_ happens on mac, please file a issue !)
-
-#### Credits to (for making the initial commits of the repo) -
-
-@willjw3 | https://github.com/willjw3
